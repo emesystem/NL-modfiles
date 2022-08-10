@@ -1,0 +1,508 @@
+{
+  "version": "1.0.0",
+  "rss": "null",
+  "discord": {
+    "clientId": "994208666062438470",
+    "smallImageText": "ねこみんランチャー",
+    "smallImageKey": "Nekomin launcher"
+  },
+  "servers": [
+    {
+      "id": "jp.nekomin.minecraft-1.19",
+      "name": "ねこみんサーバー (バニラ+)[minecraft 1.19]",
+      "description": "ねこみんサーバーを便利系+OptiFineで起動します! (Forge v41.0.99)",
+      "icon": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/jp.nekomin.minecraft-1.19.png",
+      "version": "1.0.0",
+      "address": "minecraft.nekomin.jp:25565",
+      "minecraftVersion": "1.19",
+      "discord": {
+        "shortId": "MINECRAFT",
+        "largeImageText": "MINECRAFT",
+        "largeImageKey": "Nekomin launcher"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:fmlcore:1.19-41.1.0",
+          "name": "Minecraft Forge (fmlcore)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 112198,
+            "MD5": "c07817fac0d57711c97cd521174c4ea3",
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/fmlcore/1.19-41.1.0/fmlcore-1.19-41.1.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19-41.1.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 14299,
+                "MD5": "0fc4a28e99566949d72501cebc867c85",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/versions/1.19-forge-41.1.0/1.19-forge-41.1.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.19-41.1.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 16325,
+                "MD5": "2907ae4dca58a897b732877999a9750c",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/javafmllanguage/1.19-41.1.0/javafmllanguage-1.19-41.1.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.19-41.1.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "artifact": {
+                "size": 4984,
+                "MD5": "f4fdc083da5c40d4418bf4cf88e13a52",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/mclanguage/1.19-41.1.0/mclanguage-1.19-41.1.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19-41.1.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2499118,
+                "MD5": "84c45ac44f4494e00f72aa01f7b3bb0b",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/forge/1.19-41.1.0/forge-1.19-41.1.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.19-41.1.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 5161941,
+                "MD5": "8044575c860dab2d951da22856dabb08",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/forge/1.19-41.1.0/forge-1.19-41.1.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19-20220607.102129:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 17078871,
+                "MD5": "0d40c58a574c1fc9cabbdf8f446e67e7",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraft/client/1.19-20220607.102129/client-1.19-20220607.102129-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19-20220607.102129:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 11469703,
+                "MD5": "2932fc9d3380f21a54f17e14d51c9304",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraft/client/1.19-20220607.102129/client-1.19-20220607.102129-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.19-20220607.102129:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 9992704,
+                "MD5": "9fce14a3fc256b9a5ac89c052d76b2a7",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraft/client/1.19-20220607.102129/client-1.19-20220607.102129-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.4",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 87315,
+                "MD5": "b49ceccef2c091769f134c47c108cb8b",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.3",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 122176,
+                "MD5": "e1c3b96035117ab516ffe0de9bd696e0",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/ow2/asm/asm/9.3/asm-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.3",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 72716,
+                "MD5": "16e6ac17d33ad97baa415c42e9d93d38",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/ow2/asm/asm-commons/9.3/asm-commons-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.3",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52669,
+                "MD5": "f087bfb911ff93957e44860de3e73c46",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.3",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 85682,
+                "MD5": "d6d0ac4e5c0be9a25a426c70c714b17b",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/ow2/asm/asm-util/9.3/asm-util-9.3.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.3",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34276,
+                "MD5": "11e43c0220b3f6b4791b8abf7b4cc7ef",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 43477,
+                "MD5": "0fee74c85b4a5ed1f632aac50b114f3e",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/eventbus/6.0.0/eventbus-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:6.0.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 32714,
+                "MD5": "8c04b8c26ac1d55c281bfeaa71731414",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.0.1",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24199,
+                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.8",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130263,
+                "MD5": "3e171edcc29e762d2ecafffabb9e9341",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJar:0.3.9",
+              "name": "Minecraft Forge (JarJar)",
+              "type": "Library",
+              "artifact": {
+                "size": 62770,
+                "MD5": "c5c5e2c43f7a8b319676410a628d30b3",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/JarJar/0.3.9/JarJar-0.3.9.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.19-41.1.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 260649,
+                "MD5": "2f29562e9c547d635c5ceecb3eb2f3a1",
+                "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/repo/lib/net/minecraftforge/fmlloader/1.19-41.1.0/fmlloader-1.19-41.1.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.4.2+mc1.19@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46991,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/forgemods/optionalon/appleskin-forge-mc1.19-2.4.2.jar",
+            "MD5": "3cd43c763f6e9a244a115606faaecf4f"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:5.10.33@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 533154,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/forgemods/required/architectury-5.10.33-forge.jar",
+            "MD5": "a69e75ccf42ba7b5a834d55c50d2f1eb"
+          }
+        },
+        {
+          "id": "me.treyruffy:betterf3:1.3.2@jar",
+          "name": "BetterF3",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 152023,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/forgemods/optionalon/BetterF3-1.3.2-Forge-1.19.jar",
+            "MD5": "42dfd9fb5dc63e201dc783b7154f7945"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.latvian.mods:kubejs:1900.5.5-build.27@jar",
+          "name": "KubeJS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1043959,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/forgemods/required/kubejs-forge-1900.5.5-build.27.jar",
+            "MD5": "e3c6231916d3faa1055159ea38da2969"
+          }
+        },
+        {
+          "id": "dev.latvian.kubejs.ui:kubejs_ui:1900.1.8-build.20@jar",
+          "name": "KubeJS UI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 57432,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/forgemods/required/kubejs-ui-forge-1900.1.8-build.20.jar",
+            "MD5": "01feb4dec9dc7c9a97135b7f3a71c625"
+          }
+        },
+        {
+          "id": "me.shedaniel:lightoverlay:7.0.1@jar",
+          "name": "Light Overlay",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 67068,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/forgemods/optionalon/light-overlay-7.0.1-forge.jar",
+            "MD5": "f5531b81b4a83b1fee79321156cf8b36"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "vazkii.neat:neat:1.19-32@jar",
+          "name": "Neat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23861,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/forgemods/optionalon/Neat-1.19-32.jar",
+            "MD5": "99a105dd7d9ec551544171d721963428"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "dev.latvian.mods.rhino.mod:rhino:1802.1.14-build.206@jar",
+          "name": "Rhino",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1071367,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/forgemods/required/rhino-forge-1802.1.14-build.206.jar",
+            "MD5": "a93af6b0f71b5dbbfbede84fd881d649"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:22.12.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1225270,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/forgemods/optionalon/Xaeros_Minimap_22.12.0_Forge_1.19.jar",
+            "MD5": "8ade85f9e6f7bfe3d8d461ded7e77e5c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.26.1@jar",
+          "name": "Xaero's World Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 686731,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/forgemods/optionaloff/XaerosWorldMap_1.26.1_Forge_1.19.jar",
+            "MD5": "28eade65d893fd0db3e634a5d22bcab3"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 14743,
+            "url": "http://emesan22.m26.coreserver.jp/NekominLauncher/servers/jp.nekomin.minecraft-1.19/files/servers.dat",
+            "MD5": "5d4818d5dc8fbb741815744b35877fd6",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    }
+  ]
+}

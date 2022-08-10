@@ -1,0 +1,11 @@
+{
+  "$schema": "file:///D:/Server/nekominLauncher-mod/schemas/DistroMetaSchema.schema.json",
+  "meta": {
+    "rss": "null",
+    "discord": {
+      "clientId": "994208666062438470",
+      "smallImageText": "ねこみんランチャー",
+      "smallImageKey": "Nekomin launcher"
+    }
+  }
+}
